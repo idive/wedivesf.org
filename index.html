@@ -8,11 +8,74 @@
     <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet' >
   <![endif]-->
   <style>
-    body { margin:0; padding:0; }
-    #map { position:absolute; top:0; bottom:0; width:100%; }
+    body { 
+    margin:0; padding:0; 
+    font: normal 12px Opensans,Arial,sans-serif;
+    color: #3d4e5a;
+  }
+h3 {
+font-size: 18px;
+font-weight: bold;
+line-height: 1.333em;
+}
+
+.byline {
+  margin-top: -0.75em;
+}
+
+    #map {
+position: absolute;
+top: 80px;
+left: 20px;
+right: 20px;
+bottom: 20px;
+border: 10px solid #fff;
+width: auto;
+height: auto;
+}
+
+.page-header {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.idivelink {
+position: absolute;
+z-index: 1000;
+right: 0;
+top: 0;
+line-height: 20px;
+font-size: 12px;
+white-space: nowrap;
+transition: right 100ms;
+-webkit-transition: right 100ms;
+}
+
+.idivelogo {
+display: inline-block;
+width: 65px;
+height: 28px;
+text-indent: -999px;
+overflow: hidden;
+margin-left: -6px;
+background: transparent url(images/idive-logo.png) no-repeat 0px 0px;
+}
+
   </style>
+
 </head>
 <body>
+<div class='page-header'>
+  <h3>
+    weDive, SF
+  </h3>
+  <p class='byline'>
+    Mapping the Bay Area Blue Heart ecosystem
+  </p>
+</div>
+<div class="idivelink">
+<h5>Bought to you by <a href="http://idivehousing.com"><span class="idivelogo"></span></a></h5>
+</div>
 <div id='map'></div>
 <script type='text/javascript'>
 var map = L.mapbox.map('map', 'vizowl.map-wio0abyi');
