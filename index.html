@@ -82,6 +82,8 @@ var map = L.mapbox.map('map', 'vizowl.map-wio0abyi');
 L.marker([37.78350762410675, -122.39250183105467], {title:'awesome aquarium'})
   .addTo(map)
   .bindPopup("<h3>Awesome Aquarium</h3>").openPopup();
+
+L.mapbox.tileLayer('http://api.tiles.mapbox.com/v3/vizowl.play.json');
 </script>
 </body>
 </html>
