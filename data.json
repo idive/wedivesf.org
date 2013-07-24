@@ -1,0 +1,254 @@
+[
+    {
+        "address": "Pier 39 (Beach St & The Embarcadero), San Francisco, CA 94133", 
+        "comment": "", 
+        "facebook": "https://www.facebook.com/AquariumOfTheBay", 
+        "latlon": [
+            37.7999155, 
+            -122.3980958
+        ], 
+        "name": "Aquarium of the Bay", 
+        "twitter": "@aquariumofthebay", 
+        "type": "aquarium", 
+        "url": "http://www.aquariumofthebay.org/"
+    }, 
+    {
+        "address": "55 Music Concourse Dr, San Francisco, CA 94118", 
+        "comment": "", 
+        "facebook": "https://www.facebook.com/calacademy", 
+        "latlon": [
+            37.7698218, 
+            -122.4660077
+        ], 
+        "name": "Steinhart Aquarium", 
+        "twitter": "@calacademy", 
+        "type": "aquarium", 
+        "url": "http://www.calacademy.org/academy/exhibits/aquarium/"
+    }, 
+    {
+        "address": "886 Cannery Row  Monterey, CA 93940", 
+        "comment": "", 
+        "facebook": "https://www.facebook.com/montereybayaquarium", 
+        "latlon": [
+            36.618266, 
+            -121.902339
+        ], 
+        "name": "Monterey Bay Aquarium", 
+        "twitter": "@montereyaq", 
+        "type": "aquarium", 
+        "url": "http://www.montereybayaquarium.org/"
+    }, 
+    {
+        "address": "1 Zoo Rd, San Francisco, California 94132", 
+        "comment": "", 
+        "facebook": "https://www.facebook.com/sanfranzoo", 
+        "latlon": [
+            37.73321019999999, 
+            -122.5032827
+        ], 
+        "name": "San Francisco Zoo", 
+        "twitter": " @sfzoo", 
+        "type": "aquarium", 
+        "url": "http://www.sfzoo.org/"
+    }, 
+    {
+        "address": "9777 Golf Links Rd, Oakland, CA 94605", 
+        "comment": "", 
+        "facebook": "https://www.facebook.com/OakZoo", 
+        "latlon": [
+            37.750867, 
+            -122.148185
+        ], 
+        "name": "Oakland Zoo", 
+        "twitter": "@oakzoo", 
+        "type": "aquarium", 
+        "url": "http://www.oaklandzoo.org/"
+    }, 
+    {
+        "address": "2000 Bunker Rd, Sausalito, CA 94965", 
+        "comment": "", 
+        "facebook": "https://www.facebook.com/themarinemammalcenter", 
+        "latlon": [
+            37.837509, 
+            -122.538537
+        ], 
+        "name": "Marine Mammal Center", 
+        "twitter": "@TMMC", 
+        "type": "aquarium", 
+        "url": "http://www.marinemammalcenter.org/"
+    }, 
+    {
+        "address": "584 4th St, San Francisco, CA", 
+        "comment": "", 
+        "facebook": "https://www.facebook.com/bambooreefscuba", 
+        "latlon": [
+            37.7784649, 
+            -122.3969088
+        ], 
+        "name": "Bamboo Reef Enterprises", 
+        "twitter": "@bambooreefscuba", 
+        "type": "dive center", 
+        "url": "http://bambooreef.com/"
+    }, 
+    {
+        "address": "1517 Webster Street, Alameda, CA 94501", 
+        "comment": "", 
+        "facebook": "", 
+        "latlon": [
+            37.7739203, 
+            -122.2768114
+        ], 
+        "name": "AAA Premier Scuba", 
+        "twitter": "", 
+        "type": "dive center", 
+        "url": "http://www.aaapremierscuba.com/"
+    }, 
+    {
+        "address": "5987 Telegraph Ave, Oakland, CA 94609", 
+        "comment": "", 
+        "facebook": "", 
+        "latlon": [
+            37.8462869, 
+            -122.261387
+        ], 
+        "name": "Steele\u2019s", 
+        "twitter": "", 
+        "type": "dive center", 
+        "url": "http://www.yelp.com/biz/steeles-oakland"
+    }, 
+    {
+        "address": "200 Harbor Drive, Sausalito, CA 94965", 
+        "comment": "", 
+        "facebook": "https://www.facebook.com/harbordive", 
+        "latlon": [
+            38.113885, 
+            -122.506563
+        ], 
+        "name": "Harbor Dive Center", 
+        "twitter": "", 
+        "type": "dive center", 
+        "url": "http://www.harbordive.com/"
+    }, 
+    {
+        "address": "1210 South El Camino Real, San Mateo, CA 94402", 
+        "comment": "", 
+        "facebook": "https://www.facebook.com/ScubaFusion", 
+        "latlon": [
+            37.55569819999999, 
+            -122.3181259
+        ], 
+        "name": "Scuba Fusion", 
+        "twitter": "", 
+        "type": "dive center", 
+        "url": "http://www.scubafusion.com/"
+    }, 
+    {
+        "address": "295 West 20th Avenue, San Mateo, CA 94403", 
+        "comment": "", 
+        "facebook": "https://www.facebook.com/wallinsdivecenter", 
+        "latlon": [
+            37.5471218, 
+            -122.314445
+        ], 
+        "name": "Wallins", 
+        "twitter": "", 
+        "type": "dive center", 
+        "url": "http://www.wallins.com/"
+    }, 
+    {
+        "address": "541 Oceana Boulevard, Pacifica, CA 94044", 
+        "comment": "", 
+        "facebook": "", 
+        "latlon": [
+            37.6486559, 
+            -122.4906053
+        ], 
+        "name": "Anderson\u2019s Scuba Diving", 
+        "twitter": "", 
+        "type": "dive center", 
+        "url": "http://www.andersonscuba.com/"
+    }, 
+    {
+        "address": "Farallones Islands", 
+        "comment": "", 
+        "facebook": "", 
+        "latlon": [
+            43.7166667, 
+            -7.433333299999999
+        ], 
+        "name": "Farallones Marine Sanctuary Association", 
+        "twitter": "", 
+        "type": "Conservancy", 
+        "url": "http://www.farallones.org/"
+    }, 
+    {
+        "address": "", 
+        "comment": "", 
+        "facebook": "", 
+        "latlon": "", 
+        "name": "The Ocean Conservancy", 
+        "twitter": "", 
+        "type": "", 
+        "url": ""
+    }, 
+    {
+        "address": "", 
+        "comment": "", 
+        "facebook": "", 
+        "latlon": "", 
+        "name": "The Oceanic Society", 
+        "twitter": "", 
+        "type": "", 
+        "url": ""
+    }, 
+    {
+        "address": "", 
+        "comment": "", 
+        "facebook": "", 
+        "latlon": "", 
+        "name": "Center for Ocean Science Education Excellence (COSEE) in CA", 
+        "twitter": "", 
+        "type": "", 
+        "url": ""
+    }, 
+    {
+        "address": "", 
+        "comment": "", 
+        "facebook": "", 
+        "latlon": "", 
+        "name": "Long-term Monitoring Program and Experiential Training for Students (LiMPETS)", 
+        "twitter": "", 
+        "type": "", 
+        "url": ""
+    }, 
+    {
+        "address": "", 
+        "comment": "", 
+        "facebook": "", 
+        "latlon": "", 
+        "name": "Reef Check", 
+        "twitter": "", 
+        "type": "", 
+        "url": ""
+    }, 
+    {
+        "address": "", 
+        "comment": "", 
+        "facebook": "", 
+        "latlon": "", 
+        "name": "Reef ID", 
+        "twitter": "", 
+        "type": "", 
+        "url": ""
+    }, 
+    {
+        "address": "", 
+        "comment": "", 
+        "facebook": "", 
+        "latlon": "", 
+        "name": "Lindsey Wildlife Museum", 
+        "twitter": "", 
+        "type": "", 
+        "url": ""
+    }
+]
