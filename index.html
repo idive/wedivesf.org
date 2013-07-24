@@ -3,65 +3,12 @@
 <head>
   <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' />
   <script src='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.js'></script>
+  <script src='http://code.jquery.com/jquery-2.0.3.min.js'></script>
   <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.css' rel='stylesheet' />
   <!--[if lte IE 8]>
     <link href='http://api.tiles.mapbox.com/mapbox.js/v1.3.1/mapbox.ie.css' rel='stylesheet' >
   <![endif]-->
-  <style>
-    body { 
-    margin:0; padding:0; 
-    font: normal 12px Opensans,Arial,sans-serif;
-    color: #3d4e5a;
-  }
-h3 {
-font-size: 18px;
-font-weight: bold;
-line-height: 1.333em;
-}
-
-.byline {
-  margin-top: -0.75em;
-}
-
-    #map {
-position: absolute;
-top: 80px;
-left: 20px;
-right: 20px;
-bottom: 20px;
-border: 10px solid #fff;
-width: auto;
-height: auto;
-}
-
-.page-header {
-  padding-left: 40px;
-  padding-right: 40px;
-}
-
-.idivelink {
-position: absolute;
-z-index: 1000;
-right: 0;
-top: 0;
-line-height: 20px;
-font-size: 12px;
-white-space: nowrap;
-transition: right 100ms;
--webkit-transition: right 100ms;
-}
-
-.idivelogo {
-display: inline-block;
-width: 65px;
-height: 28px;
-text-indent: -999px;
-overflow: hidden;
-margin-left: -6px;
-background: transparent url(images/idive-logo.png) no-repeat 0px 0px;
-}
-
-  </style>
+  <link href='/css/main.css' rel='stylesheet' />
 
 </head>
 <body>
@@ -77,13 +24,6 @@ background: transparent url(images/idive-logo.png) no-repeat 0px 0px;
 <h5>Bought to you by <a href="http://idivehousing.com"><span class="idivelogo"></span></a></h5>
 </div>
 <div id='map'></div>
-<script type='text/javascript'>
-var map = L.mapbox.map('map', 'vizowl.map-wio0abyi');
-L.marker([37.78350762410675, -122.39250183105467], {title:'awesome aquarium'})
-  .addTo(map)
-  .bindPopup("<h3>Awesome Aquarium</h3>").openPopup();
-
-L.mapbox.tileLayer('http://api.tiles.mapbox.com/v3/vizowl.play.json');
-</script>
+<script src='/js/markers.js' type='text/javascript'></script>
 </body>
 </html>
