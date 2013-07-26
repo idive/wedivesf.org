@@ -54,6 +54,9 @@
     // Then remove or add nodes
     var showAquariums = $("#aquariums").hasClass('active');
     var showDivecenters = $("#divecenters").hasClass('active');
+    var showMuseums = $("#museums").hasClass('active');
+    var showEducation = $("#education").hasClass('active');
+    var showConservancies = $("#conservancies").hasClass('active');
 
     $('#map').data('locations').forEach(function(d, i) {
       if (d.type === 'dive center') {
@@ -64,10 +67,34 @@
           d.marker = null;
         }
       }
-      else {
+      else if (d.type == 'aquarium') {
         if (d.marker === null && showAquariums) {
           drawmarker(d);
         } else if (d.marker !== null && !showAquariums) {
+          map.removeLayer(d.marker);
+          d.marker = null;
+        }
+      }
+      else if (d.type == 'Conservancy') {
+        if (d.marker === null && showConservancies) {
+          drawmarker(d);
+        } else if (d.marker !== null && !showConservancies) {
+          map.removeLayer(d.marker);
+          d.marker = null;
+        }
+      }
+      else if (d.type == 'Education') {
+        if (d.marker === null && showEducation) {
+          drawmarker(d);
+        } else if (d.marker !== null && !showEducation) {
+          map.removeLayer(d.marker);
+          d.marker = null;
+        }
+      }
+      else if (d.type == 'Museum') {
+        if (d.marker === null && showMuseums) {
+          drawmarker(d);
+        } else if (d.marker !== null && !showMuseums) {
           map.removeLayer(d.marker);
           d.marker = null;
         }
