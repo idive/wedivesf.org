@@ -2,6 +2,7 @@ body {
   margin:0; padding:0; 
   font: normal 12px Opensans,Arial,sans-serif;
   color: #3d4e5a;  
+  background-color: #E0E0E0;
 }
 
 h3 {
@@ -16,14 +17,18 @@ h3 {
 }
 
 #map {
-  position: absolute;
-  top: 80px;
-  left: 20px;
-  right: 20px;
-  bottom: 120px;
+  /*position: absolute;*/
   border: 10px solid #fff;
-  width: auto;
   height: 550px;
+  width: 900px;
+  /*vertical-align: middle;*/
+  display: inline-block; 
+}
+
+#content {
+    align: center;
+    text-align: center;
+    margin-top: -35px;
 }
 
 .page-header {
@@ -51,13 +56,89 @@ h3 {
   height: 28px;
   text-indent: -999px;
   overflow: hidden;
-  margin-left: -6px;
   background: transparent url(/images/idive-logo.png) no-repeat 0px 0px;
 }
 
 #infoarea {
-  position: absolute;
-  top: 650px;
-  left: 20px;
-  right: 20px;
+  text-align: left;
+  display: inline-block; 
+  width: 860px;
 }
+
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+.row:after {
+  clear: both;
+}
+
+button {
+  z-index: 1000;
+}
+
+
+#map-ui {
+  position:relative;
+  top:60px;left:790px;
+  list-style:none;
+  margin:0;padding:0;
+  z-index:100;
+  width:50px;
+  display: inline-block; 
+ 
+  }
+#map-ui a {
+  font:normal 13px/18px 'Helvetica Neue',Helvetica,sans-serif;
+  background:#FFF;
+  color:#3C4E5A;
+  display:block;
+  margin:0;padding:0;
+  border:1px solid #BBB;
+  border-bottom-width:0;
+  min-width:138px;
+  padding:10px;
+  text-decoration:none;
+  }
+#map-ui a:hover { background:#ECF5FA; }
+#map-ui li:last-child a {
+  border-bottom-width:1px;
+  -webkit-border-radius:0 0 3px 3px;
+          border-radius:0 0 3px 3px;
+  }
+#map-ui li:first-child a {
+  -webkit-border-radius:3px 3px 0 0;
+          border-radius:3px 3px 0 0;
+        }
+#map-ui a.active {
+  background:#3887BE;
+  border-color:#3887BE;
+  border-top-color:#FFF;
+  color:#FFF;
+  }ul.inline,
+ol.inline {
+  margin-left: 0;
+  list-style: none;
+}
+
+ul.inline > li,
+ol.inline > li {
+  display: inline-block;
+  *display: inline;
+  padding-right: 5px;
+  padding-left: 5px;
+  *zoom: 1;
+}
+
+
+h3 a { color: #4F9EB5; text-decoration }
+h3 a:hover { color: #0E9AD6; border-bottom: 1px dashed #0E9AD6; }
+
