@@ -24,9 +24,12 @@
             $('#infochild').remove();
             $('#infoarea').append('<ul class="inline" id="infochild"><ul>');
             $('#infochild').append('<li><h3><a href="' + d.url + '" target="_blank">' + d.name + '</a></h3></li>');
-            $('#infochild').append('<li class="icons"><a href="' + d.facebook + '" target="_blank" class="facebook"></a></li>');
-            $('#infochild').append('<li class="icons"><a href="http://twitter.com/' + d.twitter + '" target="_blank" class="twitter"></a></li>');
-
+            if (d.facebook !== '') {
+              $('#infochild').append('<li class="icons"><a href="' + d.facebook + '" target="_blank" class="facebook"></a></li>');
+            }
+            if (d.twitter !== '') {
+              $('#infochild').append('<li class="icons"><a href="http://twitter.com/' + d.twitter + '" target="_blank" class="twitter"></a></li>');
+            }
           });
       }
     };
