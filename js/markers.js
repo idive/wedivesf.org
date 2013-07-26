@@ -2,20 +2,26 @@
   var root = this;
   var map = L.mapbox.map('map', 'vizowl.map-wio0abyi');
   var markers = $.getJSON('/data/data.json', function(data) {
-    var diverIcon = L.icon({
-      iconUrl: '/images/icons/diver.png',
-      iconSize: [32, 32]
-    });
-    var fishIcon = L.icon({
-      iconUrl: '/images/icons/bluefish.png',
-      iconSize: [32, 32]
-    });
+    var diverIcon = L.icon({iconUrl: '/images/icons/scuba.png', iconSize: [32, 32] });
+    var fishIcon = L.icon({iconUrl: '/images/icons/fish.png', iconSize: [32, 32] });
+    var plainIcon = L.icon({iconUrl: '/images/icons/plain.png', iconSize: [32, 32] });
+    var whaleIcon = L.icon({iconUrl: '/images/icons/whale.png', whaleSize: [32, 32] });
+    var viewIcon = L.icon({iconUrl: '/images/icons/binoculars.png', iconSize: [32, 32] });
+    var sealIcon = L.icon({iconUrl: '/images/icons/seal.png', iconSize: [32, 32] });
 
     var drawmarker = root.drawmarker = function(d) {
       if (d.latlon) {
-        var icon = fishIcon;
+        var icon = plainIcon;
         if (d.type === "dive center") {
           icon = diverIcon;
+        } else if (d.type === "aquarium") {
+          icon = sealIcon;
+        } else if (d.type === "Conservancy") {
+          icon = fishIcon;
+        } else if (d.type === "Education") {
+          icon = viewIcon;
+        } else if (d.type === "Museum") {
+          icon = whaleIcon;
         }
         d.marker = L.marker(d.latlon, {title: d.name, icon: icon})
           .addTo(map)

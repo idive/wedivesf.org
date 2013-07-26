@@ -1,8 +1,10 @@
 body { 
   margin:0; padding:0; 
-  font: normal 12px Opensans,Arial,sans-serif;
+  font-family: 'AKZ Reg', sans-serif;
   color: #3d4e5a;  
-  background-color: #E0E0E0;
+  font-size: 14px;
+  background-color: #fff;
+  min-height: 100%;
 }
 
 h3 {
@@ -108,7 +110,7 @@ button {
 #map-ui a {
   font:normal 13px/18px 'Helvetica Neue',Helvetica,sans-serif;
   background:#FFF;
-  color:#3C4E5A;
+  color:#1C4F80;
   display:block;
   margin:0;padding:0;
   border:1px solid #BBB;
@@ -151,3 +153,38 @@ ol.inline > li {
 h3 a { color: #4F9EB5; text-decoration }
 h3 a:hover { color: #0E9AD6; border-bottom: 1px dashed #0E9AD6; }
 
+
+
+
+@font-face {
+    font-family: 'AKZ Light';
+    src: url('../media/akzidenzgrotesk-light-webfont.eot');
+    src: url('../media/akzidenzgrotesk-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../media/akzidenzgrotesk-light-webfont.woff') format('woff'),
+         url('../media/akzidenzgrotesk-light-webfont.ttf') format('truetype'),
+         url('../media/akzidenzgrotesk-light-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'AKZ Reg';
+    src: url('../media/berthold_akzidenz_grotesk_be_regular-webfont.eot');
+    src: url('../media/berthold_akzidenz_grotesk_be_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../media/berthold_akzidenz_grotesk_be_regular-webfont.woff') format('woff'),
+         url('../media/berthold_akzidenz_grotesk_be_regular-webfont.ttf') format('truetype'),
+         url('../media/berthold_akzidenz_grotesk_be_regular-webfont.svg#berthold_akzidenz_grotesk_bRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'AKZ Med';
+    src: url('../media/berthold_akzidenz_grotesk_be_medium-webfont.eot');
+    src: url('../media/berthold_akzidenz_grotesk_be_medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../media/berthold_akzidenz_grotesk_be_medium-webfont.woff') format('woff'),
+         url('../media/berthold_akzidenz_grotesk_be_medium-webfont.ttf') format('truetype'),
+         url('../media/berthold_akzidenz_grotesk_be_medium-webfont.svg#berthold_akzidenz_grotesk_bMd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
