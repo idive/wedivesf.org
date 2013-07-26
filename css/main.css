@@ -24,7 +24,8 @@ h3 {
   height: 550px;
   width: 900px;
   /*vertical-align: middle;*/
-  display: inline-block; 
+  display: inline-block;
+  margin-left: -50px;
 }
 
 #content {
@@ -39,7 +40,7 @@ h3 {
 
 .header-inner {
   display:inline-block;  
-  padding-left: 40px;
+  padding-left: 10px;
   width: 900px;
 }
 
@@ -73,7 +74,7 @@ h3 {
 #infoarea {
   text-align: left;
   display: inline-block; 
-  width: 860px;
+  width: 900px;
 }
 
 .row {
@@ -99,7 +100,7 @@ button {
 #map-ui {
   position:relative;
   top:180px;
-  left:790px;
+  left:740px;
   list-style:none;
   margin:0;padding:0;
   z-index:100;
