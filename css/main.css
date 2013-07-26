@@ -111,7 +111,7 @@ button {
 #map-ui a {
   font:normal 13px/18px 'Helvetica Neue',Helvetica,sans-serif;
   background:#FFF;
-  color:#1C4F80;
+  color:#27537F;
   display:block;
   margin:0;padding:0;
   border:1px solid #BBB;
@@ -131,8 +131,8 @@ button {
           border-radius:3px 3px 0 0;
         }
 #map-ui a.active {
-  background:#3887BE;
-  border-color:#3887BE;
+  background:#27537F;
+  border-color:#27537F;
   border-top-color:#FFF;
   color:#FFF;
   }ul.inline,
