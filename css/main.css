@@ -26,6 +26,7 @@ h3 {
   /*vertical-align: middle;*/
   display: inline-block;
   margin-left: -50px;
+  margin-top: 160px;
 }
 
 #content {
@@ -71,6 +72,19 @@ h3 {
   float: right;
 }
 
+
+
+.whale {
+  position: relative;
+  background: transparent url(/images/wedivewhale.png) no-repeat 0px 0px;
+  pointer-events:none;
+  width: 861px;
+  height: 371px;
+  z-index: 100;
+  opacity:0.2;
+  top: 100px;
+  left: 20px;
+}
 
 .idivelink {
   position: relative;
@@ -119,11 +133,11 @@ button {
 
 #map-ui {
   position:relative;
-  top:180px;
+  top:-360px;
   left:740px;
   list-style:none;
   margin:0;padding:0;
-  z-index:100;
+  z-index:200;
   width:50px;
   display: inline-block; 
  
