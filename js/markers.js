@@ -12,9 +12,9 @@
     var drawmarker = root.drawmarker = function(d) {
       if (d.latlon) {
         var icon = plainIcon;
-        if (d.type === "dive center") {
+        if (d.type === "Dive Center") {
           icon = diverIcon;
-        } else if (d.type === "aquarium") {
+        } else if (d.type === "Aquarium") {
           icon = sealIcon;
         } else if (d.type === "Conservancy") {
           icon = fishIcon;
@@ -65,7 +65,7 @@
     var showConservancies = $("#conservancies").hasClass('active');
 
     $('#map').data('locations').forEach(function(d, i) {
-      if (d.type === 'dive center') {
+      if (d.type === 'Dive Center') {
         if (d.marker === null && showDivecenters) {
           drawmarker(d);
         } else if (d.marker !== null && !showDivecenters) {
@@ -73,7 +73,7 @@
           d.marker = null;
         }
       }
-      else if (d.type == 'aquarium') {
+      else if (d.type == 'Aquarium') {
         if (d.marker === null && showAquariums) {
           drawmarker(d);
         } else if (d.marker !== null && !showAquariums) {

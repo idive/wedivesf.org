@@ -1,29 +1,43 @@
 type,name,address,latlon,url,facebook,twitter,comment
-aquarium,Aquarium of the Bay,"Pier 39 (Beach St & The Embarcadero), San Francisco, CA 94133",,http://www.aquariumofthebay.org/,https://www.facebook.com/AquariumOfTheBay,@aquariumofthebay,
-aquarium,Steinhart Aquarium,"55 Music Concourse Dr, San Francisco, CA 94118",,http://www.calacademy.org/academy/exhibits/aquarium/,https://www.facebook.com/calacademy,@calacademy,
-aquarium,Monterey Bay Aquarium,"886 Cannery Row  Monterey, CA 93940",,http://www.montereybayaquarium.org/,https://www.facebook.com/montereybayaquarium,@montereyaq,
-aquarium,San Francisco Zoo,"1 Zoo Rd, San Francisco, California 94132",,http://www.sfzoo.org/,https://www.facebook.com/sanfranzoo, @sfzoo,
-aquarium,Oakland Zoo,"9777 Golf Links Rd, Oakland, CA 94605",,http://www.oaklandzoo.org/,https://www.facebook.com/OakZoo,@oakzoo,
-aquarium,Marine Mammal Center,"2000 Bunker Rd, Sausalito, CA 94965",,http://www.marinemammalcenter.org/,https://www.facebook.com/themarinemammalcenter,@TMMC,
-dive center,Bamboo Reef Enterprises,"584 4th St, San Francisco, CA",,http://bambooreef.com/,https://www.facebook.com/bambooreefscuba,@bambooreefscuba,
-dive center,AAA Premier Scuba,"1517 Webster Street, Alameda, CA 94501",,http://www.aaapremierscuba.com/,https://www.facebook.com/pages/AAA-Premier-Scuba/207573322700636?ref=br_tf,,
-dive center,Steele’s,"5987 Telegraph Ave, Oakland, CA 94609",,http://www.yelp.com/biz/steeles-oakland,,,
-dive center,Harbor Dive Center,"200 Harbor Drive, Sausalito, CA 94965",,http://www.harbordive.com/,https://www.facebook.com/harbordive,,
-dive center,Scuba Fusion,"1210 South El Camino Real, San Mateo, CA 94402",,http://www.scubafusion.com/,https://www.facebook.com/ScubaFusion,@SCUBA_FUSION,
-dive center,Wallins,"295 West 20th Avenue, San Mateo, CA 94403",,http://www.wallins.com/,https://www.facebook.com/wallinsdivecenter,@wallinsdivectr,
-dive center,Anderson’s Scuba Diving,"541 Oceana Boulevard, Pacifica, CA 94044",,http://www.andersonscuba.com/,,,
+Aquarium,Aquarium of the Bay,"Pier 39 (Beach St & The Embarcadero), San Francisco, CA 94133",,http://www.aquariumofthebay.org/,https://www.facebook.com/AquariumOfTheBay,@aquariumofthebay,
+Aquarium,Steinhart Aquarium,"55 Music Concourse Dr, San Francisco, CA 94118",,http://www.calacademy.org/academy/exhibits/aquarium/,https://www.facebook.com/calacademy,@calacademy,
+Aquarium,Monterey Bay Aquarium,"886 Cannery Row  Monterey, CA 93940",,http://www.montereybayaquarium.org/,https://www.facebook.com/montereybayaquarium,@montereyaq,
+Aquarium,San Francisco Zoo,"1 Zoo Rd, San Francisco, California 94132",,http://www.sfzoo.org/,https://www.facebook.com/sanfranzoo, @sfzoo,
+Aquarium,Oakland Zoo,"9777 Golf Links Rd, Oakland, CA 94605",,http://www.oaklandzoo.org/,https://www.facebook.com/OakZoo,@oakzoo,
+Aquarium,Marine Mammal Center,"2000 Bunker Rd, Sausalito, CA 94965",,http://www.marinemammalcenter.org/,https://www.facebook.com/themarinemammalcenter,@TMMC,
+Dive Center,Bamboo Reef Enterprises,"584 4th St, San Francisco, CA",,http://bambooreef.com/,https://www.facebook.com/bambooreefscuba,@bambooreefscuba,
+Dive Center,AAA Premier Scuba,"1517 Webster Street, Alameda, CA 94501",,http://www.aaapremierscuba.com/,https://www.facebook.com/pages/AAA-Premier-Scuba/207573322700636?ref=br_tf,,
+Dive Center,Steele’s,"5987 Telegraph Ave, Oakland, CA 94609",,http://www.yelp.com/biz/steeles-oakland,,,
+Dive Center,Harbor Dive Center,"200 Harbor Drive, Sausalito, CA 94965",,http://www.harbordive.com/,https://www.facebook.com/harbordive,,
+Dive Center,Scuba Fusion,"1210 South El Camino Real, San Mateo, CA 94402",,http://www.scubafusion.com/,https://www.facebook.com/ScubaFusion,@SCUBA_FUSION,
+Dive Center,Wallins,"295 West 20th Avenue, San Mateo, CA 94403",,http://www.wallins.com/,https://www.facebook.com/wallinsdivecenter,@wallinsdivectr,
+Dive Center,Anderson’s Scuba Diving,"541 Oceana Boulevard, Pacifica, CA 94044",,http://www.andersonscuba.com/,,,
 Conservancy,Farallones Marine Sanctuary Association,Farallon Islands,,http://www.farallones.org/,https://www.facebook.com/Farallones,@GFNMS,
 Conservancy,The Ocean Conservancy,"725 Front Street, Suite 201
 Santa Cruz, CA 95060 ",,http://www.oceanconservancy.org/,https://www.facebook.com/oceanconservancy,@ourocean,headquarters in Washington DC
 Conservancy,The Oceanic Society,"30 Sir Francis Drake Blvd.
 P.O. Box 437
 Ross, CA  94957",,http://www.oceanicsociety.org/,https://www.facebook.com/OceanicSociety,@OceanicSociety,
-Education,Center for Ocean Science Education Excellence (COSEE) in CA,"Lawrence Hall of Science #5200
-Berkeley, CA 94720-5200",,http://www.cosee.net/,https://www.facebook.com/pages/COSEE-West/127349790327,@COSEE,
+Education,Center for Ocean Science Education Excellence (COSEE) in CA,"101 Sproul Hall  Berkeley, CA 94704",,http://www.cosee.net/,https://www.facebook.com/pages/COSEE-West/127349790327,@COSEE,
 Education,Long-term Monitoring Program and Experiential Training for Students (LiMPETS),"165 Forest Ave  Pacific Grove, CA 93950",,http://limpetsmonitoring.org/,,,
 Conservancy,Reef Check,"17575 Pacific Coast Hwy, Pacific Palisades, CA 90272",,http://www.reefcheck.org/,https://www.facebook.com/reefcheckfoundation,@ReefCheck,
-Technology,Reef ID,,,http://www.reefid.org/,https://www.facebook.com/ReefID,@ReefID,Teens4Oceans just worked with Reef ID
-Museum,Lindsey Wildlife Museum,"1931 First Ave, Walnut Creek, CA 94597",,http://wildlife-museum.org/,https://www.facebook.com/pages/Lindsey-Museum-And-Wildlife-Center/108315439261972,,
-Museum,WildAid ,"744 Montgomery Street
+Technology,Reef ID,"330 Hillview Dr. Fremont, CA USA",,http://www.reefid.org/,https://www.facebook.com/ReefID,@ReefID,Teens4Oceans just worked with Reef ID
+Research,Berkely ,"Berkely, California",,http://biology.berkeley.edu/,,,
+Conservancy,WildAid ,"744 Montgomery Street
 Suite 300
 San Francisco, CA 94111",,http://www.wildaid.org/,https://www.facebook.com/wildaid,@WildAid,
+Underwater Tech,OpenROV,Tech shop in S.F.,,http://openrov.com/,https://www.facebook.com/OpenROV,@OpenROV,
+Underwater Tech,GoPro,"San Francisco Office
+3000 Clearview Way
+San Mateo, CA, 94402
+USA
+",,http://gopro.com/,https://www.facebook.com/gopro,@GoPro,
+Underwater Tech,Marinexplore,"Sunnyvale, USA
+920 Stewart Dr
+Sunnyvale, CA
+USA",,http://marinexplore.org/?utm_source=enterprise&utm_medium=link_text&utm_campaign=our_new_home,https://www.facebook.com/MarinexploreHQ,@marinexplore,
+Underwater Tech,DOER,"1827 Clement Ave. Building 19, Alameda, California",,http://www.doermarine.com/,https://www.facebook.com/pages/DOER-Marine-Operations/135087663207466,,
+Acedemic ,CCSF,"50 Phelan Ave  San Francisco, CA 94112",,http://www.ccsf.edu/NEW/en/educational-programs/school-and-departments/school-of-science-and-mathematics/biology.html,https://www.facebook.com/ucsantacruz,,
+Acedemic ,Stanford,"450 Serra Mall Stanford, CA 94305-2004",,http://www-marine.stanford.edu/,https://www.facebook.com/stanford?ref=br_tf,@Stanford,
+Acedemic ,UCSC,"1156 High Street Santa Cruz, CA 95064",,http://undergrad.pbsci.ucsc.edu/programs/eeb/mabibs.html,https://www.facebook.com/ucsantacruz,@ucsc,
+Education,Romberg Tiburon Center,"3150 Paradise Dr, Tiburon, CA 94920",,http://rtc.sfsu.edu/,https://www.facebook.com/rombergtiburoncenter?ref=ts,@Callie_Copepod,
