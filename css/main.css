@@ -52,6 +52,26 @@ h3 {
   float: right;
 }
 
+.border-left {
+  position: absolute;
+  margin-top: 100px;
+  width: 235px;
+  height: 486px;
+  background: transparent url(/images/wedivekelp-left.png) no-repeat 0px 0px;
+  float: left;
+}
+
+.border-right {
+  position: absolute;
+  margin-top: 100px;
+  right: 0;
+  width: 235px;
+  height: 486px;
+  background: transparent url(/images/wedivekelp-right.png) no-repeat 0px 0px;
+  float: right;
+}
+
+
 .idivelink {
   position: relative;
   z-index: 1000;
