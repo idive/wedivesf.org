@@ -65,8 +65,8 @@ h3 {
   position: absolute;
   margin-top: 100px;
   right: 0;
-  width: 235px;
-  height: 486px;
+  width: 228px;
+  height: 491px;
   background: transparent url(/images/wedivekelp-right.png) no-repeat 0px 0px;
   float: right;
 }
@@ -92,9 +92,9 @@ h3 {
 }
 
 #infoarea {
-  text-align: left;
   display: inline-block; 
   width: 900px;
+  padding-left: 225px;
 }
 
 .row {
