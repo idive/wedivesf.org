@@ -8,6 +8,7 @@
     var whaleIcon = L.icon({iconUrl: '/images/icons/whale.png', whaleSize: [32, 32] });
     var viewIcon = L.icon({iconUrl: '/images/icons/binoculars.png', iconSize: [32, 32] });
     var sealIcon = L.icon({iconUrl: '/images/icons/seal.png', iconSize: [32, 32] });
+    var techIcon = L.icon({iconUrl: '/images/icons/tech.png', iconSize: [32, 32] });
 
     var drawmarker = root.drawmarker = function(d) {
       if (d.latlon) {
@@ -20,8 +21,10 @@
           icon = fishIcon;
         } else if (d.type === "Education") {
           icon = viewIcon;
-        } else if (d.type === "Museum") {
+        } else if (d.type === "Research") {
           icon = whaleIcon;
+        } else if (d.type === "Underwater Tech") {
+          icon = techIcon;
         }
         d.marker = L.marker(d.latlon, {title: d.name, icon: icon})
           .addTo(map)
@@ -60,9 +63,11 @@
     // Then remove or add nodes
     var showAquariums = $("#aquariums").hasClass('active');
     var showDivecenters = $("#divecenters").hasClass('active');
-    var showMuseums = $("#museums").hasClass('active');
+    var showResearch = $("#research").hasClass('active');
     var showEducation = $("#education").hasClass('active');
     var showConservancies = $("#conservancies").hasClass('active');
+    var showTech = $("#tech").hasClass('active');
+
 
     $('#map').data('locations').forEach(function(d, i) {
       if (d.type === 'Dive Center') {
@@ -97,10 +102,18 @@
           d.marker = null;
         }
       }
-      else if (d.type == 'Museum') {
-        if (d.marker === null && showMuseums) {
+      else if (d.type == 'Research') {
+        if (d.marker === null && showResearch) {
           drawmarker(d);
-        } else if (d.marker !== null && !showMuseums) {
+        } else if (d.marker !== null && !showResearch) {
+          map.removeLayer(d.marker);
+          d.marker = null;
+        }
+      }
+      else if (d.type == 'Underwater Tech') {
+        if (d.marker === null && showTech) {
+          drawmarker(d);
+        } else if (d.marker !== null && !showTech) {
           map.removeLayer(d.marker);
           d.marker = null;
         }
